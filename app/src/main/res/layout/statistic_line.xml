@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+
+        <!--    <androidx.constraintlayout.helper.widget.Flow-->
+        <!--        android:id="@+id/diceContainer"-->
+        <!--        android:layout_width="0dp"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        app:constraint_referenced_ids=""-->
+        <!--        app:flow_horizontalGap="10dp"-->
+        <!--        app:flow_horizontalStyle="spread"-->
+        <!--        app:flow_verticalGap="5dp"-->
+        <!--        app:flow_wrapMode="aligned"-->
+        <!--        app:layout_constraintTop_toTopOf="parent"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintBottom_toTopOf="@id/resultTextView"-->
+        <!--        android:orientation="vertical" />-->
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:id="@+id/layoutForDices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+        <!--        app:layout_constraintTop_toTopOf="parent"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintBottom_toTopOf="@id/resultTextView"-->
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/resultTextView"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="TextView"/>-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

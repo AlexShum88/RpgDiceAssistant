@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">RPG Dice Assistant</string>
+    <string name="done">Done</string>
+    <string name="add_button">Set</string>
+    <string name="color_button">Color Button</string>
+    <string name="change_grain">Change dice grain</string>
+    <string name="change_all_grain">Change all dices grain</string>
+    <string name="change_all_grains">Change all dices grains</string>
+    <string name="remove_dice">Remove dice</string>
+    <string name="grain_menu_text">D%1$s</string>
+    <string name="statistic_grain_text">%1$d d%2$s</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete preset?</string>
+    <string name="choose_color">Colors</string>
+    <string name="choose_preset">Choose preset</string>
+    <string name="choose_pack">Choose pack</string>
+    <string name="dice_pool">Dice pool</string>
+    <string name="change_preset_name">Change preset name</string>
+    <string name="set_hint_preset_name">Name of preset</string>
+    <string name="such_name_exist">Such preset exist. Please change name.</string>
+    <string name="enter_preset_name">Enter preset name, please</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="statistic">Roll history</string>
+    <string name="dice_packs">Dice packs</string>
+    <string name="presets">Presets</string>
+    <string name="pack">Packs</string>
+    <string name="dice_roll_regime">Dice roll regime</string>
+    <string name="dice">Dice</string>
+    <string name="help">Help</string>
+    <string name="pack_help">Here you can choose how you dices would look like</string>
+    <string name="preset_help">Here you can choose or save dice pool</string>
+    <string name="dice_pool_help">
+        Its your current dice pool.
+        \n\nJust click dice to roll.
+        \n\nLeft button activate/deactivate change color of dice to selected color.
+        \n\nRight button add a new dice.
+        \n\nCentral button switches the throw mode: one dice or all previous dices.
+        \n\nLong click on dice to remove or change dice/s grain or color of all dices.
+    </string>
+    <string name="color_help">Here you can choose color to paint the dice.</string>
+    <string name="statistic_help">You roll history.</string>
+    <string name="total_score">Total score</string>
+    <string name="change_color_of_all_dice">Change color of all dices</string>
+
+</resources>

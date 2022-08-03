@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">RPG Dice Assistant</string>
+    <string name="done">Готово</string>
+    <string name="add_button">Додати</string>
+    <string name="color_button">Колір</string>
+    <string name="change_grain">Змінити грані куба</string>
+    <string name="change_all_grain">Змінити грані куба</string>
+    <string name="change_all_grains">Змінити грані всих кубів</string>
+    <string name="remove_dice">Видалити куб</string>
+    <string name="grain_menu_text">D%1$s</string>
+    <string name="statistic_grain_text">%1$d d%2$s</string>
+    <string name="save">Зберегти</string>
+    <string name="delete">Видалити пресет?</string>
+    <string name="choose_color">Кольори</string>
+    <string name="choose_preset">Змінити пресет</string>
+    <string name="choose_pack">Вибрати пак</string>
+    <string name="dice_pool">Набір кубів</string>
+    <string name="change_preset_name">Змінити назку пресету</string>
+    <string name="set_hint_preset_name">Ім\'я пресету</string>
+    <string name="such_name_exist">Таке ім\'я існує. Виберіть інше.</string>
+    <string name="enter_preset_name">Введіть ім\'я пресету</string>
+    <string name="dismiss">Відмінити</string>
+    <string name="statistic">Історія</string>
+    <string name="dice_packs">Паки кубів</string>
+    <string name="presets">Пресети</string>
+    <string name="pack">Паки</string>
+    <string name="dice_roll_regime">Режим броску</string>
+    <string name="dice">Куб</string>
+    <string name="help">Допомога</string>
+    <string name="pack_help">Тут можна вибрати, як будуть виглядяти куби.</string>
+    <string name="preset_help">Тут можна вибрати або зберегти набір кубів</string>
+    <string name="dice_pool_help">
+        Це твій набір кубів.
+        \n\nПросто натисни на куб, щоб кинути.
+        \n\nКнопка зліва переключає режим зміни кольору куба колір, що обраний на панелі кольору.
+        \n\nПрава кнопка додає новий куб.
+        \n\nЦентральна кнопка змінює режим кидання: один куб, або всі попередні.
+        \n\nДовгий натиск на куб відкриває меню, де можна змінити грані куба/кубів, або колір всих кубів , або видалити його.
+    </string>
+    <string name="color_help">Тут можна вибрати колір, в який розмальовувати куби.</string>
+    <string name="statistic_help">Історія кидання.</string>
+    <string name="total_score">Загальна сума:  </string>
+    <string name="change_color_of_all_dice">Змінити колір всих кубів</string>
+
+</resources>
