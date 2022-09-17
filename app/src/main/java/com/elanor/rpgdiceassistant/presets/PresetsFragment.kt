@@ -62,7 +62,7 @@ class PresetsFragment() : Fragment() {
         binding.presetRecycle.layoutManager = LinearLayoutManager(requireContext())
 
         pager = requireActivity().findViewById(R.id.pager)
-        mAdView = binding.adViewPresets
+//        mAdView = binding.adViewPresets
         val adRequest = AdRequest.Builder().build()
         mAdView.loadAd(adRequest)
         return binding.root

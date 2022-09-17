@@ -51,7 +51,7 @@ class PackFragment() : Fragment() {
         binding.list.layoutManager = LinearLayoutManager(requireContext())
         pager = requireActivity().findViewById(R.id.pager)
 
-        mAdView = binding.adView
+//        mAdView = binding.adView
         val adRequest = AdRequest.Builder().build()
         mAdView.loadAd(adRequest)
         return binding.root
