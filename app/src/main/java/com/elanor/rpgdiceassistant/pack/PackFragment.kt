@@ -19,7 +19,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 
 class PackFragment() : Fragment() {
-    lateinit var mAdView: AdView
+//    lateinit var mAdView: AdView
     lateinit var pager: ViewPager2
     val viewModel: PackViewModel by viewModels()
     lateinit var preferences: SharedPreferences
@@ -52,8 +52,8 @@ class PackFragment() : Fragment() {
         pager = requireActivity().findViewById(R.id.pager)
 
 //        mAdView = binding.adView
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
+//        val adRequest = AdRequest.Builder().build()
+//        mAdView.loadAd(adRequest)
         return binding.root
     }
 

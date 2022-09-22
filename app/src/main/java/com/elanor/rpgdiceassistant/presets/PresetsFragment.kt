@@ -24,7 +24,7 @@ import com.google.android.gms.ads.AdView
 
 class PresetsFragment() : Fragment() {
 
-    lateinit var mAdView: AdView
+//    lateinit var mAdView: AdView
     lateinit var pager: ViewPager2
     private lateinit var binding: FragmentPresetsBinding
     private val viewModel: PresetsViewModel by viewModels { presetFactory() }
@@ -63,8 +63,8 @@ class PresetsFragment() : Fragment() {
 
         pager = requireActivity().findViewById(R.id.pager)
 //        mAdView = binding.adViewPresets
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
+//        val adRequest = AdRequest.Builder().build()
+//        mAdView.loadAd(adRequest)
         return binding.root
     }
 
